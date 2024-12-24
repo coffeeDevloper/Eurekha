@@ -23,5 +23,5 @@ To get started with the project, clone the repository and follow the setup instr
 
 ```bash
 git clone https://github.com/coffeeDevloper/Eurekha.git
-cd Eurekha ```
+cd Eurekha
 
