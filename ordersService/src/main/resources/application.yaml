@@ -1,17 +1,19 @@
 server:
-  port: 8082
+  port: 8084
+
 spring:
   datasource:
-    url: jdbc:postgresql://${DB_HOST:localhost}:5432/ps
+    url: jdbc:postgresql://${DB_HOST:localhost}:5432/os
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver
+
   jpa:
     hibernate:
       ddl-auto: update
+    show-sql: true
   application:
-    name: PRODUCT-SERVICE
-
+    name: ORDER-SERVICE
 eureka:
   instance:
     prefer-ip-address: true

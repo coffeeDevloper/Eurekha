@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @Builder
 public class Product {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private long productId;
     @Column(name = "PRODUCT_NAME")
     private String productName;
